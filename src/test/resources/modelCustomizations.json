@@ -1,0 +1,14 @@
+[
+  {
+    "customization_type": "EnableGridBasedTableDetection",
+    "params": [
+      "true"
+    ]
+  },
+  {
+    "customization_type": "OcrEngine",
+    "params": [
+      "TESSERACT"
+    ]
+  }
+]

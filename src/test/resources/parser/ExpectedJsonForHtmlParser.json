@@ -1,0 +1,220 @@
+{
+  "box": {
+    "bottom": 792.0,
+    "left": 0.0,
+    "right": 612.0,
+    "top": 0.0
+  },
+  "handWrittenAreas": [],
+  "pages": [
+    {
+      "box": {
+        "bottom": 792.0,
+        "left": 0.0,
+        "right": 612.0,
+        "top": 0.0
+      },
+      "groups": [
+        {
+          "lines": [
+            {
+              "segments": [
+                {
+                  "border": {
+                    "bottom": false,
+                    "left": false,
+                    "right": false,
+                    "top": false
+                  },
+                  "box": {
+                    "bottom": 58.37,
+                    "left": 147.0,
+                    "right": 421.3,
+                    "top": 50.0
+                  },
+                  "color": "#000000",
+                  "fontFamily": "Times",
+                  "fontSize": 12.0,
+                  "id": "0_0",
+                  "letterSpacing": 0.0,
+                  "neighbour": {
+                    "bottom": "1_0",
+                    "left": null,
+                    "right": null,
+                    "top": null
+                  },
+                  "span": {
+                    "bottom": 60.88,
+                    "left": 0.0,
+                    "right": 612.0,
+                    "top": 0.0
+                  },
+                  "styles": [],
+                  "text": "This is phrase extractor. It is test for testing that it works."
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "border": {
+                    "bottom": false,
+                    "left": false,
+                    "right": false,
+                    "top": false
+                  },
+                  "box": {
+                    "bottom": 71.76,
+                    "left": 141.0,
+                    "right": 337.99,
+                    "top": 63.39
+                  },
+                  "color": "#000000",
+                  "fontFamily": "Times",
+                  "fontSize": 12.0,
+                  "id": "1_0",
+                  "letterSpacing": 0.0,
+                  "neighbour": {
+                    "bottom": "2_0",
+                    "left": null,
+                    "right": null,
+                    "top": "0_0"
+                  },
+                  "span": {
+                    "bottom": 80.94,
+                    "left": 0.0,
+                    "right": 612.0,
+                    "top": 60.88
+                  },
+                  "styles": [],
+                  "text": "In case it does not then, this test will fail."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "segments": [
+                {
+                  "border": {
+                    "bottom": false,
+                    "left": false,
+                    "right": false,
+                    "top": false
+                  },
+                  "box": {
+                    "bottom": 98.49,
+                    "left": 147.0,
+                    "right": 421.3,
+                    "top": 90.12
+                  },
+                  "color": "#000000",
+                  "fontFamily": "Times",
+                  "fontSize": 12.0,
+                  "id": "2_0",
+                  "letterSpacing": 0.0,
+                  "neighbour": {
+                    "bottom": "3_0",
+                    "left": null,
+                    "right": null,
+                    "top": "1_0"
+                  },
+                  "span": {
+                    "bottom": 100.98,
+                    "left": 0.0,
+                    "right": 612.0,
+                    "top": 80.94
+                  },
+                  "styles": [],
+                  "text": "This is phrase extractor. It is test for testing that it works."
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "border": {
+                    "bottom": false,
+                    "left": false,
+                    "right": false,
+                    "top": false
+                  },
+                  "box": {
+                    "bottom": 111.84,
+                    "left": 141.0,
+                    "right": 337.99,
+                    "top": 103.47
+                  },
+                  "color": "#000000",
+                  "fontFamily": "Times",
+                  "fontSize": 12.0,
+                  "id": "3_0",
+                  "letterSpacing": 0.0,
+                  "neighbour": {
+                    "bottom": "4_0",
+                    "left": null,
+                    "right": null,
+                    "top": "2_0"
+                  },
+                  "span": {
+                    "bottom": 136.84,
+                    "left": 0.0,
+                    "right": 612.0,
+                    "top": 100.98
+                  },
+                  "styles": [],
+                  "text": "In case it does not then, this test will fail."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "segments": [
+                {
+                  "border": {
+                    "bottom": false,
+                    "left": false,
+                    "right": false,
+                    "top": false
+                  },
+                  "box": {
+                    "bottom": 170.26,
+                    "left": 136.0,
+                    "right": 269.39,
+                    "top": 161.84
+                  },
+                  "color": "#000000",
+                  "fontFamily": "Times",
+                  "fontSize": 12.0,
+                  "id": "4_0",
+                  "letterSpacing": 0.0,
+                  "neighbour": {
+                    "bottom": null,
+                    "left": null,
+                    "right": null,
+                    "top": "3_0"
+                  },
+                  "span": {
+                    "bottom": 481.13,
+                    "left": 0.0,
+                    "right": 612.0,
+                    "top": 136.84
+                  },
+                  "styles": [],
+                  "text": "This text is bold sometimes"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "scannedness": 0.0,
+      "width": 612.0
+    }
+  ]
+}
