@@ -817,14 +817,14 @@ Sample PDF
 * Open [docKnight](https://gitlab.gs.com/rde-ai/docviz) in `Intellij`
 * Set Java:
 ```
-export JAVA_HOME=/gns/mw/java/64bit/oracle/hotspot/jdk-1.8.0_121_b13_2
-export JDK_HOME=/gns/mw/java/64bit/oracle/hotspot/jdk-1.8.0_121_b13_2
-export IDEA_JDK_64=/gns/mw/java/64bit/oracle/hotspot/jdk-1.8.0_121_b13_2
+export JAVA_HOME=/path/to/jdk-1.8.0_121_b13_2
+export JDK_HOME=/path/to/jdk-1.8.0_121_b13_2
+export IDEA_JDK_64=/path/to/jdk-1.8.0_121_b13_2
 ```
-* Run intellij: `/gns/mw/ide/GSIntelliJUltimate-prod/bin/idea.sh`
+* Run intellij: `/path/to/GSIntelliJUltimate-prod/bin/idea.sh`
 * In intellij to File -> Settings -> Build, Execution, Deployment -> Build Tools -> Maven
 * Check these settings:
-    * Maven home directory: `/opt/worlddb-u-2/home/windsb/gs-maven-3.6.0`
+    * Maven home directory: `/path/to/gs-maven-3.6.0`
     * User settings file: `path/to/maven-settings.xml/inside/the/project`
 * Run maven:
     * View -> Tool Windows -> Maven Projects
