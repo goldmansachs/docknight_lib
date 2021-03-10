@@ -1,0 +1,7057 @@
+{
+  "document" : "TableEnrichmentTest.pdf",
+  "tables" : [ {
+    "columns" : [ {
+      "index" : 0,
+      "path" : "",
+      "title" : ""
+    }, {
+      "index" : 1,
+      "path" : "Baseline",
+      "title" : "Baseline"
+    }, {
+      "index" : 2,
+      "path" : "Heuristic",
+      "title" : "Heuristic"
+    }, {
+      "index" : 3,
+      "path" : "RF",
+      "title" : "RF"
+    } ],
+    "data" : [ {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 0
+        },
+        "segmentIds" : [ ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 110.78,
+          "left" : 216.05,
+          "right" : 258.78,
+          "top" : 104.08
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 0
+        },
+        "segmentIds" : [ "1_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Baseline",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 110.78,
+          "left" : 324.07,
+          "right" : 371.39,
+          "top" : 104.08
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 0
+        },
+        "segmentIds" : [ "2_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Heuristic",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 110.78,
+          "left" : 432.1,
+          "right" : 448.07,
+          "top" : 104.08
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 0
+        },
+        "segmentIds" : [ "3_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "RF",
+        "textStyles" : [ "bold" ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 124.34,
+          "left" : 72.02,
+          "right" : 107.86,
+          "top" : 117.52
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 1
+        },
+        "segmentIds" : [ "4_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Correct",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 124.34,
+          "left" : 216.05,
+          "right" : 243.05,
+          "top" : 117.52
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 1
+        },
+        "segmentIds" : [ "5_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.402",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 124.34,
+          "left" : 327.07,
+          "right" : 354.07,
+          "top" : 117.52
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 1
+        },
+        "segmentIds" : [ "6_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.609",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 124.34,
+          "left" : 435.1,
+          "right" : 462.1,
+          "top" : 117.52
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 1
+        },
+        "segmentIds" : [ "7_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.920",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 138.14,
+          "left" : 72.02,
+          "right" : 103.3,
+          "top" : 131.32
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 2
+        },
+        "segmentIds" : [ "8_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Partial",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 138.14,
+          "left" : 216.05,
+          "right" : 243.05,
+          "top" : 131.32
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 2
+        },
+        "segmentIds" : [ "9_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.587",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 138.14,
+          "left" : 327.07,
+          "right" : 348.07,
+          "top" : 131.32
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 2
+        },
+        "segmentIds" : [ "10_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.25",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 138.14,
+          "left" : 432.1,
+          "right" : 459.1,
+          "top" : 131.32
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 2
+        },
+        "segmentIds" : [ "11_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.043",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 151.94,
+          "left" : 72.02,
+          "right" : 120.01,
+          "top" : 145.12
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 3
+        },
+        "segmentIds" : [ "12_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Expanded",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 151.94,
+          "left" : 216.05,
+          "right" : 222.05,
+          "top" : 145.12
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 3
+        },
+        "segmentIds" : [ "13_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 151.94,
+          "left" : 324.07,
+          "right" : 345.07,
+          "top" : 145.12
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 3
+        },
+        "segmentIds" : [ "14_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.13",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 151.94,
+          "left" : 435.1,
+          "right" : 456.1,
+          "top" : 145.12
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 3
+        },
+        "segmentIds" : [ "15_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.03",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 165.73,
+          "left" : 72.02,
+          "right" : 95.23,
+          "top" : 158.92
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 4
+        },
+        "segmentIds" : [ "16_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Fake",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 165.73,
+          "left" : 216.05,
+          "right" : 243.05,
+          "top" : 158.92
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 4
+        },
+        "segmentIds" : [ "17_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.011",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 165.73,
+          "left" : 324.07,
+          "right" : 351.07,
+          "top" : 158.92
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 4
+        },
+        "segmentIds" : [ "18_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.011",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 165.73,
+          "left" : 435.1,
+          "right" : 462.1,
+          "top" : 158.92
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 4
+        },
+        "segmentIds" : [ "19_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.007",
+        "textStyles" : [ ]
+      } ]
+    } ],
+    "id" : 0,
+    "metadata" : {
+      "caption" : "Table header row detection1",
+      "columnHeaderCount" : 1,
+      "columns" : 4,
+      "rows" : 5,
+      "spanningPages" : [ 0 ]
+    },
+    "rows" : [ {
+      "children" : [ ],
+      "headerRow" : true,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 0,
+      "parents" : [ ],
+      "title" : "",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 1,
+      "parents" : [ ],
+      "title" : "Correct",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 2,
+      "parents" : [ ],
+      "title" : "Partial",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 3,
+      "parents" : [ ],
+      "title" : "Expanded",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 4,
+      "parents" : [ ],
+      "title" : "Fake",
+      "totalRow" : false
+    } ]
+  }, {
+    "columns" : [ {
+      "index" : 0,
+      "path" : "Features",
+      "title" : "Features"
+    }, {
+      "index" : 1,
+      "path" : "Precision",
+      "title" : "Precision"
+    }, {
+      "index" : 2,
+      "path" : "Recall",
+      "title" : "Recall"
+    }, {
+      "index" : 3,
+      "path" : "F",
+      "title" : "F"
+    } ],
+    "data" : [ {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 193.58,
+          "left" : 72.02,
+          "right" : 116.52,
+          "top" : 186.88
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 0
+        },
+        "segmentIds" : [ "20_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Features",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 193.58,
+          "left" : 216.05,
+          "right" : 263.25,
+          "top" : 186.88
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 0
+        },
+        "segmentIds" : [ "21_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Precision",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 193.58,
+          "left" : 324.07,
+          "right" : 355.94,
+          "top" : 186.88
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 0
+        },
+        "segmentIds" : [ "22_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Recall",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 193.58,
+          "left" : 435.1,
+          "right" : 442.43,
+          "top" : 186.88
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 0
+        },
+        "segmentIds" : [ "23_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "F",
+        "textStyles" : [ "bold" ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 207.14,
+          "left" : 72.02,
+          "right" : 160.59,
+          "top" : 200.32
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 1
+        },
+        "segmentIds" : [ "24_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Single row feature",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 207.14,
+          "left" : 216.05,
+          "right" : 243.05,
+          "top" : 200.32
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 1
+        },
+        "segmentIds" : [ "25_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 207.14,
+          "left" : 324.07,
+          "right" : 351.07,
+          "top" : 200.32
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 1
+        },
+        "segmentIds" : [ "26_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.962",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 207.14,
+          "left" : 432.1,
+          "right" : 459.1,
+          "top" : 200.32
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 1
+        },
+        "segmentIds" : [ "27_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 220.94,
+          "left" : 72.02,
+          "right" : 175.23,
+          "top" : 214.12
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 2
+        },
+        "segmentIds" : [ "28_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Neighbor row feature",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 220.94,
+          "left" : 216.05,
+          "right" : 243.05,
+          "top" : 214.12
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 2
+        },
+        "segmentIds" : [ "29_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 220.94,
+          "left" : 327.07,
+          "right" : 354.07,
+          "top" : 214.12
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 2
+        },
+        "segmentIds" : [ "30_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.962",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 220.94,
+          "left" : 432.1,
+          "right" : 459.1,
+          "top" : 214.12
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 2
+        },
+        "segmentIds" : [ "31_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 234.73,
+          "left" : 72.02,
+          "right" : 115.24,
+          "top" : 227.92
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 3
+        },
+        "segmentIds" : [ "32_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Together",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 234.73,
+          "left" : 216.05,
+          "right" : 243.05,
+          "top" : 227.92
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 3
+        },
+        "segmentIds" : [ "33_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.974",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 234.73,
+          "left" : 324.07,
+          "right" : 351.07,
+          "top" : 227.92
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 3
+        },
+        "segmentIds" : [ "34_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.978",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 234.73,
+          "left" : 432.1,
+          "right" : 459.1,
+          "top" : 227.92
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 3
+        },
+        "segmentIds" : [ "35_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.976",
+        "textStyles" : [ ]
+      } ]
+    } ],
+    "id" : 1,
+    "metadata" : {
+      "columnHeaderCount" : 1,
+      "columns" : 4,
+      "rows" : 4,
+      "spanningPages" : [ 0 ]
+    },
+    "rows" : [ {
+      "children" : [ ],
+      "headerRow" : true,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 0,
+      "parents" : [ ],
+      "title" : "Features",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 1,
+      "parents" : [ ],
+      "title" : "Single row feature",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 2,
+      "parents" : [ ],
+      "title" : "Neighbor row feature",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 3,
+      "parents" : [ ],
+      "title" : "Together",
+      "totalRow" : false
+    } ]
+  }, {
+    "columns" : [ {
+      "index" : 0,
+      "path" : "",
+      "title" : ""
+    }, {
+      "index" : 1,
+      "path" : "Baseline",
+      "title" : "Baseline"
+    }, {
+      "index" : 2,
+      "path" : "Heuristic",
+      "title" : "Heuristic"
+    }, {
+      "index" : 3,
+      "path" : "RF",
+      "title" : "RF"
+    } ],
+    "data" : [ {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 0
+        },
+        "segmentIds" : [ ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 400.25,
+          "left" : 180.05,
+          "right" : 222.78,
+          "top" : 393.55
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 0
+        },
+        "segmentIds" : [ "37_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Baseline",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 400.25,
+          "left" : 288.07,
+          "right" : 335.39,
+          "top" : 393.55
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 0
+        },
+        "segmentIds" : [ "38_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Heuristic",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 400.25,
+          "left" : 396.1,
+          "right" : 412.07,
+          "top" : 393.55
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 0
+        },
+        "segmentIds" : [ "39_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "RF",
+        "textStyles" : [ "bold" ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 413.8,
+          "left" : 72.02,
+          "right" : 107.86,
+          "top" : 406.99
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 1
+        },
+        "segmentIds" : [ "40_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Correct",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 413.8,
+          "left" : 180.05,
+          "right" : 207.05,
+          "top" : 406.99
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 1
+        },
+        "segmentIds" : [ "41_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.735",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 413.8,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 406.99
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 1
+        },
+        "segmentIds" : [ "42_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.598",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 413.8,
+          "left" : 399.1,
+          "right" : 426.1,
+          "top" : 406.99
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 1
+        },
+        "segmentIds" : [ "43_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.904",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 427.63,
+          "left" : 72.02,
+          "right" : 103.3,
+          "top" : 420.81
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 2
+        },
+        "segmentIds" : [ "44_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Partial",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 427.63,
+          "left" : 180.05,
+          "right" : 201.05,
+          "top" : 420.81
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 2
+        },
+        "segmentIds" : [ "45_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.24",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 427.63,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 420.81
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 2
+        },
+        "segmentIds" : [ "46_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.186",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 427.63,
+          "left" : 396.1,
+          "right" : 423.1,
+          "top" : 420.81
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 2
+        },
+        "segmentIds" : [ "47_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.053",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 441.42,
+          "left" : 72.02,
+          "right" : 120.01,
+          "top" : 434.61
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 3
+        },
+        "segmentIds" : [ "48_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Expanded",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 441.42,
+          "left" : 180.05,
+          "right" : 186.05,
+          "top" : 434.61
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 3
+        },
+        "segmentIds" : [ "49_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 441.42,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 434.61
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 3
+        },
+        "segmentIds" : [ "50_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.181",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 441.42,
+          "left" : 399.1,
+          "right" : 426.1,
+          "top" : 434.61
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 3
+        },
+        "segmentIds" : [ "51_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.025",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 455.35,
+          "left" : 72.02,
+          "right" : 95.23,
+          "top" : 448.53
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 4
+        },
+        "segmentIds" : [ "52_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Fake",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 455.35,
+          "left" : 180.05,
+          "right" : 193.38,
+          "top" : 448.53
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 4
+        },
+        "segmentIds" : [ "53_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "To",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 455.35,
+          "left" : 288.07,
+          "right" : 310.63,
+          "top" : 448.53
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 4
+        },
+        "segmentIds" : [ "54_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "keep",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 455.35,
+          "left" : 399.1,
+          "right" : 426.1,
+          "top" : 448.53
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 4
+        },
+        "segmentIds" : [ "55_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.018",
+        "textStyles" : [ ]
+      } ]
+    } ],
+    "id" : 2,
+    "metadata" : {
+      "caption" : "Table header column detection2",
+      "columnHeaderCount" : 1,
+      "columns" : 4,
+      "rows" : 5,
+      "spanningPages" : [ 0 ]
+    },
+    "rows" : [ {
+      "children" : [ ],
+      "headerRow" : true,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 0,
+      "parents" : [ ],
+      "title" : "",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 1,
+      "parents" : [ ],
+      "title" : "Correct",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 2,
+      "parents" : [ ],
+      "title" : "Partial",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 3,
+      "parents" : [ ],
+      "title" : "Expanded",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 4,
+      "parents" : [ ],
+      "title" : "Fake",
+      "totalRow" : false
+    } ]
+  }, {
+    "columns" : [ {
+      "index" : 0,
+      "path" : "Features",
+      "title" : "Features"
+    }, {
+      "index" : 1,
+      "path" : "Precision",
+      "title" : "Precision"
+    }, {
+      "index" : 2,
+      "path" : "Recall",
+      "title" : "Recall"
+    }, {
+      "index" : 3,
+      "path" : "F",
+      "title" : "F"
+    } ],
+    "data" : [ {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 481.39,
+          "left" : 72.02,
+          "right" : 116.52,
+          "top" : 474.69
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 0
+        },
+        "segmentIds" : [ "56_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Features",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 481.39,
+          "left" : 180.05,
+          "right" : 227.25,
+          "top" : 474.69
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 0
+        },
+        "segmentIds" : [ "57_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Precision",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 481.39,
+          "left" : 288.07,
+          "right" : 319.94,
+          "top" : 474.69
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 0
+        },
+        "segmentIds" : [ "58_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Recall",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 481.39,
+          "left" : 399.1,
+          "right" : 406.43,
+          "top" : 474.69
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 0
+        },
+        "segmentIds" : [ "59_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "F",
+        "textStyles" : [ "bold" ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 494.95,
+          "left" : 72.02,
+          "right" : 160.59,
+          "top" : 488.13
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 1
+        },
+        "segmentIds" : [ "60_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Single row feature",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 494.95,
+          "left" : 183.05,
+          "right" : 210.05,
+          "top" : 488.13
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 1
+        },
+        "segmentIds" : [ "61_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 494.95,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 488.13
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 1
+        },
+        "segmentIds" : [ "62_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.962",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 494.95,
+          "left" : 396.1,
+          "right" : 423.1,
+          "top" : 488.13
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 1
+        },
+        "segmentIds" : [ "63_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 508.75,
+          "left" : 72.02,
+          "right" : 175.23,
+          "top" : 501.93
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 2
+        },
+        "segmentIds" : [ "64_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Neighbor row feature",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 508.75,
+          "left" : 187.25,
+          "right" : 214.35,
+          "top" : 501.93
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 2
+        },
+        "segmentIds" : [ "65_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 508.75,
+          "left" : 291.07,
+          "right" : 318.07,
+          "top" : 501.93
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 2
+        },
+        "segmentIds" : [ "66_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.962",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 508.75,
+          "left" : 396.1,
+          "right" : 423.1,
+          "top" : 501.93
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 2
+        },
+        "segmentIds" : [ "67_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 522.54,
+          "left" : 72.02,
+          "right" : 115.24,
+          "top" : 515.73
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 3
+        },
+        "segmentIds" : [ "68_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Together",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 522.54,
+          "left" : 183.05,
+          "right" : 210.05,
+          "top" : 515.73
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 3
+        },
+        "segmentIds" : [ "69_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.974",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 522.54,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 515.73
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 3
+        },
+        "segmentIds" : [ "70_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.978",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 522.54,
+          "left" : 396.1,
+          "right" : 423.1,
+          "top" : 515.73
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 3
+        },
+        "segmentIds" : [ "71_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.976",
+        "textStyles" : [ ]
+      } ]
+    } ],
+    "id" : 3,
+    "metadata" : {
+      "columnHeaderCount" : 1,
+      "columns" : 4,
+      "rows" : 4,
+      "spanningPages" : [ 0 ]
+    },
+    "rows" : [ {
+      "children" : [ ],
+      "headerRow" : true,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 0,
+      "parents" : [ ],
+      "title" : "Features",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 1,
+      "parents" : [ ],
+      "title" : "Single row feature",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 2,
+      "parents" : [ ],
+      "title" : "Neighbor row feature",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 3,
+      "parents" : [ ],
+      "title" : "Together",
+      "totalRow" : false
+    } ]
+  }, {
+    "columns" : [ {
+      "index" : 0,
+      "path" : "",
+      "title" : ""
+    }, {
+      "index" : 1,
+      "path" : "Baseline",
+      "title" : "Baseline"
+    }, {
+      "index" : 2,
+      "path" : "Heuristic",
+      "title" : "Heuristic"
+    }, {
+      "index" : 3,
+      "path" : "RF",
+      "title" : "RF"
+    }, {
+      "index" : 4,
+      "path" : "Extra row",
+      "title" : "Extra row"
+    } ],
+    "data" : [ {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 0
+        },
+        "segmentIds" : [ ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 902.78,
+          "left" : 180.05,
+          "right" : 222.78,
+          "top" : 896.08
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 0
+        },
+        "segmentIds" : [ "74_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Baseline",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 902.78,
+          "left" : 288.07,
+          "right" : 335.39,
+          "top" : 896.08
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 0
+        },
+        "segmentIds" : [ "75_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Heuristic",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 902.78,
+          "left" : 396.1,
+          "right" : 412.07,
+          "top" : 896.08
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 0
+        },
+        "segmentIds" : [ "76_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "RF",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 902.78,
+          "left" : 468.1,
+          "right" : 520.31,
+          "top" : 896.08
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 0
+        },
+        "segmentIds" : [ "77_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Extra row",
+        "textStyles" : [ "bold" ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 916.34,
+          "left" : 72.02,
+          "right" : 107.86,
+          "top" : 909.52
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 1
+        },
+        "segmentIds" : [ "78_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Correct",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 916.34,
+          "left" : 180.05,
+          "right" : 207.05,
+          "top" : 909.52
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 1
+        },
+        "segmentIds" : [ "79_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.735",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 916.34,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 909.52
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 1
+        },
+        "segmentIds" : [ "80_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.598",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 916.34,
+          "left" : 399.1,
+          "right" : 426.1,
+          "top" : 909.52
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 1
+        },
+        "segmentIds" : [ "81_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.904",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 916.34,
+          "left" : 468.1,
+          "right" : 474.1,
+          "top" : 909.52
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 1
+        },
+        "segmentIds" : [ "82_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "1",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 930.14,
+          "left" : 72.02,
+          "right" : 103.3,
+          "top" : 923.32
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 2
+        },
+        "segmentIds" : [ "83_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Partial",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 930.14,
+          "left" : 180.05,
+          "right" : 201.05,
+          "top" : 923.32
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 2
+        },
+        "segmentIds" : [ "84_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.24",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 930.14,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 923.32
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 2
+        },
+        "segmentIds" : [ "85_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.186",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 930.14,
+          "left" : 396.1,
+          "right" : 423.1,
+          "top" : 923.32
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 2
+        },
+        "segmentIds" : [ "86_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.053",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 930.14,
+          "left" : 468.1,
+          "right" : 474.1,
+          "top" : 923.32
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 2
+        },
+        "segmentIds" : [ "87_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "2",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 944.05,
+          "left" : 72.02,
+          "right" : 95.23,
+          "top" : 937.24
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 3
+        },
+        "segmentIds" : [ "88_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Fake",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 944.05,
+          "left" : 180.05,
+          "right" : 207.05,
+          "top" : 937.24
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 3
+        },
+        "segmentIds" : [ "89_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.025",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 944.05,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 937.24
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 3
+        },
+        "segmentIds" : [ "90_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.025",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 944.05,
+          "left" : 399.1,
+          "right" : 426.1,
+          "top" : 937.24
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 3
+        },
+        "segmentIds" : [ "91_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.018",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 944.05,
+          "left" : 468.1,
+          "right" : 501.1,
+          "top" : 937.24
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 3
+        },
+        "segmentIds" : [ "92_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "698.09",
+        "textStyles" : [ ]
+      } ]
+    } ],
+    "id" : 4,
+    "metadata" : {
+      "caption" : "Table header column detection3",
+      "columnHeaderCount" : 1,
+      "columns" : 5,
+      "rows" : 4,
+      "spanningPages" : [ 1 ]
+    },
+    "rows" : [ {
+      "children" : [ ],
+      "headerRow" : true,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 0,
+      "parents" : [ ],
+      "title" : "",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 1,
+      "parents" : [ ],
+      "title" : "Correct",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 2,
+      "parents" : [ ],
+      "title" : "Partial",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 3,
+      "parents" : [ ],
+      "title" : "Fake",
+      "totalRow" : false
+    } ]
+  }, {
+    "columns" : [ {
+      "index" : 0,
+      "path" : "Features",
+      "title" : "Features"
+    }, {
+      "index" : 1,
+      "path" : "Row\nPrecision12",
+      "title" : "Row\nPrecision12"
+    }, {
+      "index" : 2,
+      "path" : "Recall_0/2",
+      "title" : "Recall_0/2"
+    }, {
+      "index" : 3,
+      "path" : "F",
+      "title" : "F"
+    }, {
+      "index" : 4,
+      "path" : "Help!!",
+      "title" : "Help!!"
+    } ],
+    "data" : [ {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 983.65,
+          "left" : 72.02,
+          "right" : 114.62,
+          "top" : 976.83
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 0
+        },
+        "segmentIds" : [ "94_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Features",
+        "textStyles" : [ "italic" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 983.65,
+          "left" : 180.05,
+          "right" : 237.99,
+          "top" : 963.03
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 0
+        },
+        "segmentIds" : [ "93_0", "95_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Row\nPrecision12",
+        "textStyles" : [ "italic" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 983.65,
+          "left" : 288.07,
+          "right" : 339.99,
+          "top" : 976.83
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 0
+        },
+        "segmentIds" : [ "96_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Recall_0/2",
+        "textStyles" : [ "italic" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 983.65,
+          "left" : 396.1,
+          "right" : 403.43,
+          "top" : 976.83
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 0
+        },
+        "segmentIds" : [ "97_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "F",
+        "textStyles" : [ "italic" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 983.65,
+          "left" : 468.1,
+          "right" : 499.44,
+          "top" : 976.83
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 0
+        },
+        "segmentIds" : [ "98_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Help!!",
+        "textStyles" : [ "italic" ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 997.34,
+          "left" : 72.02,
+          "right" : 160.59,
+          "top" : 990.52
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 1
+        },
+        "segmentIds" : [ "99_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Single row feature",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 997.34,
+          "left" : 183.05,
+          "right" : 210.05,
+          "top" : 990.52
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 1
+        },
+        "segmentIds" : [ "100_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 997.34,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 990.52
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 1
+        },
+        "segmentIds" : [ "101_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.962",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 997.34,
+          "left" : 396.1,
+          "right" : 423.1,
+          "top" : 990.52
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 1
+        },
+        "segmentIds" : [ "102_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 997.34,
+          "left" : 468.1,
+          "right" : 485.47,
+          "top" : 990.52
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 1
+        },
+        "segmentIds" : [ "103_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "this",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1011.14,
+          "left" : 72.02,
+          "right" : 153.54,
+          "top" : 1004.32
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 2
+        },
+        "segmentIds" : [ "104_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Neighbor feature",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1011.14,
+          "left" : 183.05,
+          "right" : 210.05,
+          "top" : 1004.32
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 2
+        },
+        "segmentIds" : [ "105_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1011.14,
+          "left" : 291.07,
+          "right" : 318.07,
+          "top" : 1004.32
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 2
+        },
+        "segmentIds" : [ "106_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.962",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1011.14,
+          "left" : 396.1,
+          "right" : 423.1,
+          "top" : 1004.32
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 2
+        },
+        "segmentIds" : [ "107_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1011.14,
+          "left" : 468.1,
+          "right" : 500.12,
+          "top" : 1004.32
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 2
+        },
+        "segmentIds" : [ "108_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "should",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1024.94,
+          "left" : 72.02,
+          "right" : 115.24,
+          "top" : 1018.12
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 3
+        },
+        "segmentIds" : [ "109_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Together",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1024.94,
+          "left" : 183.05,
+          "right" : 210.05,
+          "top" : 1018.12
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 3
+        },
+        "segmentIds" : [ "110_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.974",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1024.94,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 1018.12
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 3
+        },
+        "segmentIds" : [ "111_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.978",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1024.94,
+          "left" : 396.1,
+          "right" : 423.1,
+          "top" : 1018.12
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 3
+        },
+        "segmentIds" : [ "112_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.976",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1024.94,
+          "left" : 468.1,
+          "right" : 492.7,
+          "top" : 1018.12
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 3
+        },
+        "segmentIds" : [ "113_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "work",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1038.73,
+          "left" : 72.02,
+          "right" : 128.92,
+          "top" : 1031.92
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 4
+        },
+        "segmentIds" : [ "114_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Row Merge",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1038.73,
+          "left" : 180.05,
+          "right" : 201.38,
+          "top" : 1031.92
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 4
+        },
+        "segmentIds" : [ "115_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "This",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1038.73,
+          "left" : 288.07,
+          "right" : 306.73,
+          "top" : 1031.92
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 4
+        },
+        "segmentIds" : [ "116_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "row",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1038.73,
+          "left" : 396.1,
+          "right" : 447.61,
+          "top" : 1031.92
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 4
+        },
+        "segmentIds" : [ "117_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "will merge",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1052.57,
+          "left" : 468.1,
+          "right" : 528.72,
+          "top" : 1031.92
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 4
+        },
+        "segmentIds" : [ "118_0", "119_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "with the row\nbelow",
+        "textStyles" : [ ]
+      } ]
+    } ],
+    "id" : 5,
+    "metadata" : {
+      "columnHeaderCount" : 1,
+      "columns" : 5,
+      "rows" : 5,
+      "spanningPages" : [ 1 ]
+    },
+    "rows" : [ {
+      "children" : [ ],
+      "headerRow" : true,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 0,
+      "parents" : [ ],
+      "title" : "Features",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 1,
+      "parents" : [ ],
+      "title" : "Single row feature",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 2,
+      "parents" : [ ],
+      "title" : "Neighbor feature",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 3,
+      "parents" : [ ],
+      "title" : "Together",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 4,
+      "parents" : [ ],
+      "title" : "Row Merge",
+      "totalRow" : false
+    } ]
+  }, {
+    "columns" : [ {
+      "index" : 0,
+      "path" : "",
+      "title" : ""
+    }, {
+      "index" : 1,
+      "path" : "Baseline",
+      "title" : "Baseline"
+    }, {
+      "index" : 2,
+      "path" : "Heuristic",
+      "title" : "Heuristic"
+    }, {
+      "index" : 3,
+      "path" : "RF",
+      "title" : "RF"
+    } ],
+    "data" : [ {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 0
+        },
+        "segmentIds" : [ ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1315.03,
+          "left" : 180.05,
+          "right" : 222.78,
+          "top" : 1308.33
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 0
+        },
+        "segmentIds" : [ "121_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Baseline",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1315.03,
+          "left" : 288.07,
+          "right" : 335.39,
+          "top" : 1308.33
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 0
+        },
+        "segmentIds" : [ "122_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Heuristic",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1315.03,
+          "left" : 396.1,
+          "right" : 412.07,
+          "top" : 1308.33
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 0
+        },
+        "segmentIds" : [ "123_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "RF",
+        "textStyles" : [ "bold" ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1328.58,
+          "left" : 72.02,
+          "right" : 107.86,
+          "top" : 1321.77
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 1
+        },
+        "segmentIds" : [ "124_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Correct",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1328.58,
+          "left" : 180.05,
+          "right" : 207.05,
+          "top" : 1321.77
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 1
+        },
+        "segmentIds" : [ "125_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.735",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1328.58,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 1321.77
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 1
+        },
+        "segmentIds" : [ "126_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.598",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1328.58,
+          "left" : 399.1,
+          "right" : 426.1,
+          "top" : 1321.77
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 1
+        },
+        "segmentIds" : [ "127_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.904",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1342.39,
+          "left" : 72.02,
+          "right" : 103.3,
+          "top" : 1335.57
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 2
+        },
+        "segmentIds" : [ "128_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Partial",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1342.39,
+          "left" : 180.05,
+          "right" : 201.05,
+          "top" : 1335.57
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 2
+        },
+        "segmentIds" : [ "129_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.24",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1342.39,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 1335.57
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 2
+        },
+        "segmentIds" : [ "130_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.186",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1342.39,
+          "left" : 396.1,
+          "right" : 423.1,
+          "top" : 1335.57
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 2
+        },
+        "segmentIds" : [ "131_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.053",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1356.19,
+          "left" : 72.02,
+          "right" : 120.01,
+          "top" : 1349.37
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 3
+        },
+        "segmentIds" : [ "132_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Expanded",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1356.19,
+          "left" : 180.05,
+          "right" : 186.05,
+          "top" : 1349.37
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 3
+        },
+        "segmentIds" : [ "133_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1356.19,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 1349.37
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 3
+        },
+        "segmentIds" : [ "134_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.181",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1356.19,
+          "left" : 399.1,
+          "right" : 426.1,
+          "top" : 1349.37
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 3
+        },
+        "segmentIds" : [ "135_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.025",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1370.1,
+          "left" : 72.02,
+          "right" : 95.23,
+          "top" : 1363.29
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 4
+        },
+        "segmentIds" : [ "136_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Fake",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1370.1,
+          "left" : 180.05,
+          "right" : 207.05,
+          "top" : 1363.29
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 4
+        },
+        "segmentIds" : [ "137_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.025",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1370.1,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 1363.29
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 4
+        },
+        "segmentIds" : [ "138_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.025",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1370.1,
+          "left" : 399.1,
+          "right" : 426.1,
+          "top" : 1363.29
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 4
+        },
+        "segmentIds" : [ "139_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.018",
+        "textStyles" : [ ]
+      } ]
+    } ],
+    "id" : 6,
+    "metadata" : {
+      "caption" : "Table header column detection4",
+      "columnHeaderCount" : 1,
+      "columns" : 4,
+      "rows" : 5,
+      "spanningPages" : [ 1 ]
+    },
+    "rows" : [ {
+      "children" : [ ],
+      "headerRow" : true,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 0,
+      "parents" : [ ],
+      "title" : "",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 1,
+      "parents" : [ ],
+      "title" : "Correct",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 2,
+      "parents" : [ ],
+      "title" : "Partial",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 3,
+      "parents" : [ ],
+      "title" : "Expanded",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 4,
+      "parents" : [ ],
+      "title" : "Fake",
+      "totalRow" : false
+    } ]
+  }, {
+    "columns" : [ {
+      "index" : 0,
+      "path" : "Row detection\nFeatures",
+      "title" : "Row detection\nFeatures"
+    }, {
+      "index" : 1,
+      "path" : "Precision",
+      "title" : "Precision"
+    }, {
+      "index" : 2,
+      "path" : "Recall",
+      "title" : "Recall"
+    }, {
+      "index" : 3,
+      "path" : "F",
+      "title" : "F"
+    } ],
+    "data" : [ {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1409.73,
+          "left" : 72.02,
+          "right" : 144.92,
+          "top" : 1389.48
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 0
+        },
+        "segmentIds" : [ "140_0", "141_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Row detection\nFeatures",
+        "textStyles" : [ "bold", "italic" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1409.73,
+          "left" : 180.05,
+          "right" : 225.99,
+          "top" : 1402.91
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 0
+        },
+        "segmentIds" : [ "142_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Precision",
+        "textStyles" : [ "italic" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1409.73,
+          "left" : 288.07,
+          "right" : 318.62,
+          "top" : 1402.91
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 0
+        },
+        "segmentIds" : [ "143_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Recall",
+        "textStyles" : [ "italic" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1409.73,
+          "left" : 399.1,
+          "right" : 406.43,
+          "top" : 1402.91
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 0
+        },
+        "segmentIds" : [ "144_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "F",
+        "textStyles" : [ "italic" ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1423.53,
+          "left" : 72.02,
+          "right" : 160.59,
+          "top" : 1416.72
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 1
+        },
+        "segmentIds" : [ "145_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Single row feature",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1423.53,
+          "left" : 183.05,
+          "right" : 210.05,
+          "top" : 1416.72
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 1
+        },
+        "segmentIds" : [ "146_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1423.53,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 1416.72
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 1
+        },
+        "segmentIds" : [ "147_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.962",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1423.53,
+          "left" : 396.1,
+          "right" : 423.1,
+          "top" : 1416.72
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 1
+        },
+        "segmentIds" : [ "148_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1437.33,
+          "left" : 72.02,
+          "right" : 175.23,
+          "top" : 1430.52
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 2
+        },
+        "segmentIds" : [ "149_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Neighbor row feature",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1437.33,
+          "left" : 187.25,
+          "right" : 214.35,
+          "top" : 1430.52
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 2
+        },
+        "segmentIds" : [ "150_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1437.33,
+          "left" : 291.07,
+          "right" : 318.07,
+          "top" : 1430.52
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 2
+        },
+        "segmentIds" : [ "151_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.962",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1437.33,
+          "left" : 396.1,
+          "right" : 423.1,
+          "top" : 1430.52
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 2
+        },
+        "segmentIds" : [ "152_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1451.14,
+          "left" : 72.02,
+          "right" : 115.24,
+          "top" : 1444.32
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 3
+        },
+        "segmentIds" : [ "153_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Together",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1451.14,
+          "left" : 183.05,
+          "right" : 210.05,
+          "top" : 1444.32
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 3
+        },
+        "segmentIds" : [ "154_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.974",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1451.14,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 1444.32
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 3
+        },
+        "segmentIds" : [ "155_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.978",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1451.14,
+          "left" : 396.1,
+          "right" : 423.1,
+          "top" : 1444.32
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 3
+        },
+        "segmentIds" : [ "156_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.976",
+        "textStyles" : [ ]
+      } ]
+    } ],
+    "id" : 7,
+    "metadata" : {
+      "columnHeaderCount" : 1,
+      "columns" : 4,
+      "rows" : 4,
+      "spanningPages" : [ 1 ]
+    },
+    "rows" : [ {
+      "children" : [ ],
+      "headerRow" : true,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 0,
+      "parents" : [ ],
+      "title" : "Row detection\nFeatures",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 1,
+      "parents" : [ ],
+      "title" : "Single row feature",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 2,
+      "parents" : [ ],
+      "title" : "Neighbor row feature",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 3,
+      "parents" : [ ],
+      "title" : "Together",
+      "totalRow" : false
+    } ]
+  }, {
+    "columns" : [ {
+      "index" : 0,
+      "path" : "",
+      "title" : ""
+    }, {
+      "index" : 1,
+      "path" : "Baseline",
+      "title" : "Baseline"
+    }, {
+      "index" : 2,
+      "path" : "Heuristic",
+      "title" : "Heuristic"
+    }, {
+      "index" : 3,
+      "path" : "RF",
+      "title" : "RF"
+    } ],
+    "data" : [ {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 0
+        },
+        "segmentIds" : [ ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1694.78,
+          "left" : 180.05,
+          "right" : 222.78,
+          "top" : 1688.08
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 0
+        },
+        "segmentIds" : [ "159_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Baseline",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1694.78,
+          "left" : 288.07,
+          "right" : 335.39,
+          "top" : 1688.08
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 0
+        },
+        "segmentIds" : [ "160_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Heuristic",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1694.78,
+          "left" : 396.1,
+          "right" : 412.07,
+          "top" : 1688.08
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 0
+        },
+        "segmentIds" : [ "161_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "RF",
+        "textStyles" : [ "bold" ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1708.34,
+          "left" : 72.02,
+          "right" : 107.86,
+          "top" : 1701.52
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 1
+        },
+        "segmentIds" : [ "162_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Correct",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1708.34,
+          "left" : 180.05,
+          "right" : 207.05,
+          "top" : 1701.52
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 1
+        },
+        "segmentIds" : [ "163_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.735",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1708.34,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 1701.52
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 1
+        },
+        "segmentIds" : [ "164_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.598",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1708.34,
+          "left" : 399.1,
+          "right" : 426.1,
+          "top" : 1701.52
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 1
+        },
+        "segmentIds" : [ "165_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.904",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1722.14,
+          "left" : 72.02,
+          "right" : 103.3,
+          "top" : 1715.32
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 2
+        },
+        "segmentIds" : [ "166_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Partial",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1722.14,
+          "left" : 180.05,
+          "right" : 201.05,
+          "top" : 1715.32
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 2
+        },
+        "segmentIds" : [ "167_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.24",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1722.14,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 1715.32
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 2
+        },
+        "segmentIds" : [ "168_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.186",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1722.14,
+          "left" : 396.1,
+          "right" : 423.1,
+          "top" : 1715.32
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 2
+        },
+        "segmentIds" : [ "169_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.053",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1735.94,
+          "left" : 72.02,
+          "right" : 120.01,
+          "top" : 1729.12
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 3
+        },
+        "segmentIds" : [ "170_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Expanded",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1735.94,
+          "left" : 180.05,
+          "right" : 186.05,
+          "top" : 1729.12
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 3
+        },
+        "segmentIds" : [ "171_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1735.94,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 1729.12
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 3
+        },
+        "segmentIds" : [ "172_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.181",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1735.94,
+          "left" : 399.1,
+          "right" : 426.1,
+          "top" : 1729.12
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 3
+        },
+        "segmentIds" : [ "173_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.025",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1749.85,
+          "left" : 72.02,
+          "right" : 95.23,
+          "top" : 1743.04
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 4
+        },
+        "segmentIds" : [ "174_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Fake",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1749.85,
+          "left" : 180.05,
+          "right" : 195.05,
+          "top" : 1743.04
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 4
+        },
+        "segmentIds" : [ "175_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.2",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1749.85,
+          "left" : 288.07,
+          "right" : 303.07,
+          "top" : 1743.04
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 4
+        },
+        "segmentIds" : [ "176_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.4",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1749.85,
+          "left" : 399.1,
+          "right" : 426.1,
+          "top" : 1743.04
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 4
+        },
+        "segmentIds" : [ "177_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.018",
+        "textStyles" : [ ]
+      } ]
+    } ],
+    "id" : 8,
+    "metadata" : {
+      "caption" : "Table header column detection5",
+      "columnHeaderCount" : 1,
+      "columns" : 4,
+      "rows" : 5,
+      "spanningPages" : [ 2 ]
+    },
+    "rows" : [ {
+      "children" : [ ],
+      "headerRow" : true,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 0,
+      "parents" : [ ],
+      "title" : "",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 1,
+      "parents" : [ ],
+      "title" : "Correct",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 2,
+      "parents" : [ ],
+      "title" : "Partial",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 3,
+      "parents" : [ ],
+      "title" : "Expanded",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 4,
+      "parents" : [ ],
+      "title" : "Fake",
+      "totalRow" : false
+    } ]
+  }, {
+    "columns" : [ {
+      "index" : 0,
+      "path" : "Features",
+      "title" : "Features"
+    }, {
+      "index" : 1,
+      "path" : "Confidence",
+      "title" : "Confidence"
+    } ],
+    "data" : [ {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1775.9,
+          "left" : 180.05,
+          "right" : 224.54,
+          "top" : 1769.2
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 0
+        },
+        "segmentIds" : [ "178_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Features",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1775.9,
+          "left" : 288.07,
+          "right" : 346.16,
+          "top" : 1769.2
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 0
+        },
+        "segmentIds" : [ "179_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Confidence",
+        "textStyles" : [ "bold" ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1789.34,
+          "left" : 180.05,
+          "right" : 268.62,
+          "top" : 1782.52
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 1
+        },
+        "segmentIds" : [ "180_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Single row feature",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1789.34,
+          "left" : 291.07,
+          "right" : 318.07,
+          "top" : 1782.52
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 1
+        },
+        "segmentIds" : [ "181_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1803.14,
+          "left" : 180.05,
+          "right" : 283.26,
+          "top" : 1796.32
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 2
+        },
+        "segmentIds" : [ "182_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Neighbor row feature",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1803.14,
+          "left" : 295.26,
+          "right" : 322.37,
+          "top" : 1796.32
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 2
+        },
+        "segmentIds" : [ "183_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1816.94,
+          "left" : 180.05,
+          "right" : 223.27,
+          "top" : 1810.12
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 3
+        },
+        "segmentIds" : [ "184_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Together",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 1816.94,
+          "left" : 291.07,
+          "right" : 318.07,
+          "top" : 1810.12
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 3
+        },
+        "segmentIds" : [ "185_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.974",
+        "textStyles" : [ ]
+      } ]
+    } ],
+    "id" : 9,
+    "metadata" : {
+      "columnHeaderCount" : 1,
+      "columns" : 2,
+      "rows" : 4,
+      "spanningPages" : [ 2 ]
+    },
+    "rows" : [ {
+      "children" : [ ],
+      "headerRow" : true,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 0,
+      "parents" : [ ],
+      "title" : "Features",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 1,
+      "parents" : [ ],
+      "title" : "Single row feature",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 2,
+      "parents" : [ ],
+      "title" : "Neighbor row feature",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 3,
+      "parents" : [ ],
+      "title" : "Together",
+      "totalRow" : false
+    } ]
+  }, {
+    "columns" : [ {
+      "index" : 0,
+      "path" : "",
+      "title" : ""
+    }, {
+      "index" : 1,
+      "path" : "Baseline",
+      "title" : "Baseline"
+    }, {
+      "index" : 2,
+      "path" : "Heuristic",
+      "title" : "Heuristic"
+    }, {
+      "index" : 3,
+      "path" : "RF",
+      "title" : "RF"
+    } ],
+    "data" : [ {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 0
+        },
+        "segmentIds" : [ ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2000.82,
+          "left" : 180.05,
+          "right" : 222.78,
+          "top" : 1994.13
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 0
+        },
+        "segmentIds" : [ "187_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Baseline",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2000.82,
+          "left" : 288.07,
+          "right" : 335.39,
+          "top" : 1994.13
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 0
+        },
+        "segmentIds" : [ "188_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Heuristic",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2000.82,
+          "left" : 396.1,
+          "right" : 412.07,
+          "top" : 1994.13
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 0
+        },
+        "segmentIds" : [ "189_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "RF",
+        "textStyles" : [ "bold" ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2014.39,
+          "left" : 72.02,
+          "right" : 107.86,
+          "top" : 2007.57
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 1
+        },
+        "segmentIds" : [ "190_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Correct",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2014.39,
+          "left" : 180.05,
+          "right" : 207.05,
+          "top" : 2007.57
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 1
+        },
+        "segmentIds" : [ "191_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.402",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2014.39,
+          "left" : 291.07,
+          "right" : 318.07,
+          "top" : 2007.57
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 1
+        },
+        "segmentIds" : [ "192_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.609",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2014.39,
+          "left" : 399.1,
+          "right" : 426.1,
+          "top" : 2007.57
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 1
+        },
+        "segmentIds" : [ "193_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.920",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2028.19,
+          "left" : 72.02,
+          "right" : 103.3,
+          "top" : 2021.37
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 2
+        },
+        "segmentIds" : [ "194_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Partial",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2028.19,
+          "left" : 180.05,
+          "right" : 207.05,
+          "top" : 2021.37
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 2
+        },
+        "segmentIds" : [ "195_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.587",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2028.19,
+          "left" : 291.07,
+          "right" : 312.07,
+          "top" : 2021.37
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 2
+        },
+        "segmentIds" : [ "196_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.25",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2028.19,
+          "left" : 396.1,
+          "right" : 423.1,
+          "top" : 2021.37
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 2
+        },
+        "segmentIds" : [ "197_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.043",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2041.98,
+          "left" : 72.02,
+          "right" : 120.01,
+          "top" : 2035.17
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 3
+        },
+        "segmentIds" : [ "198_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Expanded",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2041.98,
+          "left" : 180.05,
+          "right" : 186.05,
+          "top" : 2035.17
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 3
+        },
+        "segmentIds" : [ "199_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2041.98,
+          "left" : 288.07,
+          "right" : 309.07,
+          "top" : 2035.17
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 3
+        },
+        "segmentIds" : [ "200_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.13",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2041.98,
+          "left" : 399.1,
+          "right" : 420.1,
+          "top" : 2035.17
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 3
+        },
+        "segmentIds" : [ "201_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.03",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2055.79,
+          "left" : 72.02,
+          "right" : 95.23,
+          "top" : 2048.97
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 4
+        },
+        "segmentIds" : [ "202_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Fake",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2055.79,
+          "left" : 180.05,
+          "right" : 207.05,
+          "top" : 2048.97
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 4
+        },
+        "segmentIds" : [ "203_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.011",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2055.79,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 2048.97
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 4
+        },
+        "segmentIds" : [ "204_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.011",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2055.79,
+          "left" : 399.1,
+          "right" : 426.1,
+          "top" : 2048.97
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 4
+        },
+        "segmentIds" : [ "205_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.007",
+        "textStyles" : [ ]
+      } ]
+    } ],
+    "id" : 10,
+    "metadata" : {
+      "caption" : "Table header row detection1",
+      "columnHeaderCount" : 1,
+      "columns" : 4,
+      "rows" : 5,
+      "spanningPages" : [ 2 ]
+    },
+    "rows" : [ {
+      "children" : [ ],
+      "headerRow" : true,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 0,
+      "parents" : [ ],
+      "title" : "",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 1,
+      "parents" : [ ],
+      "title" : "Correct",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 2,
+      "parents" : [ ],
+      "title" : "Partial",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 3,
+      "parents" : [ ],
+      "title" : "Expanded",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 4,
+      "parents" : [ ],
+      "title" : "Fake",
+      "totalRow" : false
+    } ]
+  }, {
+    "columns" : [ {
+      "index" : 0,
+      "path" : "Features",
+      "title" : "Features"
+    }, {
+      "index" : 1,
+      "path" : "Precision",
+      "title" : "Precision"
+    }, {
+      "index" : 2,
+      "path" : "Recall",
+      "title" : "Recall"
+    } ],
+    "data" : [ {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2083.63,
+          "left" : 72.02,
+          "right" : 116.52,
+          "top" : 2076.93
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 0
+        },
+        "segmentIds" : [ "206_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Features",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2083.63,
+          "left" : 180.05,
+          "right" : 227.25,
+          "top" : 2076.93
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 0
+        },
+        "segmentIds" : [ "207_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Precision",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2083.63,
+          "left" : 288.07,
+          "right" : 319.94,
+          "top" : 2076.93
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 0
+        },
+        "segmentIds" : [ "208_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Recall",
+        "textStyles" : [ "bold" ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2097.19,
+          "left" : 72.02,
+          "right" : 160.59,
+          "top" : 2090.37
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 1
+        },
+        "segmentIds" : [ "209_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Single row feature",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2097.19,
+          "left" : 183.05,
+          "right" : 210.05,
+          "top" : 2090.37
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 1
+        },
+        "segmentIds" : [ "210_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2097.19,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 2090.37
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 1
+        },
+        "segmentIds" : [ "211_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.962",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2110.98,
+          "left" : 72.02,
+          "right" : 175.23,
+          "top" : 2104.17
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 2
+        },
+        "segmentIds" : [ "212_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Neighbor row feature",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2110.98,
+          "left" : 187.25,
+          "right" : 214.35,
+          "top" : 2104.17
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 2
+        },
+        "segmentIds" : [ "213_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.961",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2110.98,
+          "left" : 291.07,
+          "right" : 318.07,
+          "top" : 2104.17
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 2
+        },
+        "segmentIds" : [ "214_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.962",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2124.78,
+          "left" : 72.02,
+          "right" : 115.24,
+          "top" : 2117.97
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 3
+        },
+        "segmentIds" : [ "215_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Together",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2124.78,
+          "left" : 183.05,
+          "right" : 210.05,
+          "top" : 2117.97
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 3
+        },
+        "segmentIds" : [ "216_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.974",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2124.78,
+          "left" : 288.07,
+          "right" : 315.07,
+          "top" : 2117.97
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 3
+        },
+        "segmentIds" : [ "217_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "0.978",
+        "textStyles" : [ ]
+      } ]
+    } ],
+    "id" : 11,
+    "metadata" : {
+      "columnHeaderCount" : 1,
+      "columns" : 3,
+      "rows" : 4,
+      "spanningPages" : [ 2 ]
+    },
+    "rows" : [ {
+      "children" : [ ],
+      "headerRow" : true,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 0,
+      "parents" : [ ],
+      "title" : "Features",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 1,
+      "parents" : [ ],
+      "title" : "Single row feature",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 2,
+      "parents" : [ ],
+      "title" : "Neighbor row feature",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 3,
+      "parents" : [ ],
+      "title" : "Together",
+      "totalRow" : false
+    } ]
+  }, {
+    "columns" : [ {
+      "index" : 0,
+      "path" : "Parent Header 1/",
+      "title" : ""
+    }, {
+      "index" : 1,
+      "path" : "Parent Header 1/POD1",
+      "title" : "POD1"
+    }, {
+      "index" : 2,
+      "path" : "Parent Header 1/",
+      "title" : ""
+    }, {
+      "index" : 3,
+      "path" : "ParentHeader2/POD3",
+      "title" : "POD3"
+    }, {
+      "index" : 4,
+      "path" : "ParentHeader2/POD4",
+      "title" : "POD4"
+    } ],
+    "data" : [ {
+      "cells" : [ {
+        "border" : {
+          "bottom" : true,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2458.21,
+          "left" : 152.3,
+          "right" : 227.5,
+          "top" : 2452.05
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 0
+        },
+        "segmentIds" : [ "219_0" ],
+        "span" : {
+          "columns" : 3,
+          "rows" : 1
+        },
+        "text" : "Parent Header 1",
+        "textStyles" : [ "bold", "italic" ]
+      }, {
+        "border" : {
+          "bottom" : true,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2458.21,
+          "left" : 152.3,
+          "right" : 227.5,
+          "top" : 2452.05
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 0
+        },
+        "segmentIds" : [ "219_0" ],
+        "span" : {
+          "columns" : 2,
+          "rows" : 1
+        },
+        "text" : "Parent Header 1",
+        "textStyles" : [ "bold", "italic" ]
+      }, {
+        "border" : {
+          "bottom" : true,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2458.21,
+          "left" : 152.3,
+          "right" : 227.5,
+          "top" : 2452.05
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 0
+        },
+        "segmentIds" : [ "219_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Parent Header 1",
+        "textStyles" : [ "bold", "italic" ]
+      }, {
+        "border" : {
+          "bottom" : true,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2458.21,
+          "left" : 296.35,
+          "right" : 366.03,
+          "top" : 2452.05
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 0
+        },
+        "segmentIds" : [ "220_0" ],
+        "span" : {
+          "columns" : 2,
+          "rows" : 1
+        },
+        "text" : "ParentHeader2",
+        "textStyles" : [ "bold", "italic" ]
+      }, {
+        "border" : {
+          "bottom" : true,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2458.21,
+          "left" : 296.35,
+          "right" : 366.03,
+          "top" : 2452.05
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 0
+        },
+        "segmentIds" : [ "220_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "ParentHeader2",
+        "textStyles" : [ "bold", "italic" ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 1
+        },
+        "segmentIds" : [ ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : true
+        },
+        "box" : {
+          "bottom" : 2483.53,
+          "left" : 144.02,
+          "right" : 172.84,
+          "top" : 2477.37
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 1
+        },
+        "segmentIds" : [ "225_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "POD1",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 1
+        },
+        "segmentIds" : [ ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : true
+        },
+        "box" : {
+          "bottom" : 2483.53,
+          "left" : 288.07,
+          "right" : 316.89,
+          "top" : 2477.37
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 1
+        },
+        "segmentIds" : [ "226_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "POD3",
+        "textStyles" : [ "bold" ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : true
+        },
+        "box" : {
+          "bottom" : 2483.53,
+          "left" : 360.07,
+          "right" : 388.89,
+          "top" : 2477.37
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 1
+        },
+        "segmentIds" : [ "227_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "POD4",
+        "textStyles" : [ "bold" ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2495.9,
+          "left" : 72.02,
+          "right" : 92.86,
+          "top" : 2489.62
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 2
+        },
+        "segmentIds" : [ "228_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Date",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2495.9,
+          "left" : 144.02,
+          "right" : 182.66,
+          "top" : 2489.62
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 2
+        },
+        "segmentIds" : [ "229_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "26Sep17",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : true
+        },
+        "box" : {
+          "bottom" : 2495.9,
+          "left" : 216.05,
+          "right" : 254.69,
+          "top" : 2489.62
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 2
+        },
+        "segmentIds" : [ "230_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "26Sep17",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2495.9,
+          "left" : 288.07,
+          "right" : 321.18,
+          "top" : 2489.62
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 2
+        },
+        "segmentIds" : [ "231_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "2Sep17",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2495.9,
+          "left" : 360.07,
+          "right" : 393.18,
+          "top" : 2489.62
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 2
+        },
+        "segmentIds" : [ "232_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "6Sep17",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2508.61,
+          "left" : 72.02,
+          "right" : 109.27,
+          "top" : 2502.34
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 3
+        },
+        "segmentIds" : [ "233_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Member",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2508.61,
+          "left" : 144.02,
+          "right" : 170.86,
+          "top" : 2502.34
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 3
+        },
+        "segmentIds" : [ "234_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Aman",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2508.61,
+          "left" : 216.05,
+          "right" : 244.77,
+          "top" : 2502.34
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 3
+        },
+        "segmentIds" : [ "235_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "projjal",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2508.61,
+          "left" : 288.07,
+          "right" : 316.85,
+          "top" : 2502.34
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 3
+        },
+        "segmentIds" : [ "236_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Rohan",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2521.21,
+          "left" : 360.07,
+          "right" : 393.17,
+          "top" : 2502.34
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 3
+        },
+        "segmentIds" : [ "237_0", "238_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Rupesh\nDoshi",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2533.82,
+          "left" : 72.02,
+          "right" : 108.08,
+          "top" : 2527.54
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 4
+        },
+        "segmentIds" : [ "239_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Amount",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2533.82,
+          "left" : 144.02,
+          "right" : 166.1,
+          "top" : 2527.54
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 4
+        },
+        "segmentIds" : [ "240_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "$100",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2533.82,
+          "left" : 216.05,
+          "right" : 255.72,
+          "top" : 2527.54
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 4
+        },
+        "segmentIds" : [ "241_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "100,100-",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 4
+        },
+        "segmentIds" : [ ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2533.82,
+          "left" : 324.07,
+          "right" : 338.16,
+          "top" : 2527.54
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 4
+        },
+        "segmentIds" : [ "242_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Nil",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2762.45,
+          "left" : 72.02,
+          "right" : 92.86,
+          "top" : 2756.17
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 5
+        },
+        "segmentIds" : [ "250_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Date",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2762.45,
+          "left" : 144.02,
+          "right" : 182.66,
+          "top" : 2756.17
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 5
+        },
+        "segmentIds" : [ "251_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "26Sep17",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2762.45,
+          "left" : 216.05,
+          "right" : 254.69,
+          "top" : 2756.17
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 5
+        },
+        "segmentIds" : [ "252_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "26Sep17",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2762.45,
+          "left" : 288.07,
+          "right" : 321.18,
+          "top" : 2756.17
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 5
+        },
+        "segmentIds" : [ "253_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "2Sep17",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2762.45,
+          "left" : 360.07,
+          "right" : 393.18,
+          "top" : 2756.17
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 5
+        },
+        "segmentIds" : [ "254_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "6Sep17",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2775.04,
+          "left" : 72.02,
+          "right" : 109.27,
+          "top" : 2768.77
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 6
+        },
+        "segmentIds" : [ "255_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Member",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2775.04,
+          "left" : 144.02,
+          "right" : 170.86,
+          "top" : 2768.77
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 6
+        },
+        "segmentIds" : [ "256_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Aman",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2775.04,
+          "left" : 216.05,
+          "right" : 244.77,
+          "top" : 2768.77
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 6
+        },
+        "segmentIds" : [ "257_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "projjal",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2775.04,
+          "left" : 288.07,
+          "right" : 345.84,
+          "top" : 2768.77
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 6
+        },
+        "segmentIds" : [ "258_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Rohan Doshi",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2775.04,
+          "left" : 360.07,
+          "right" : 393.17,
+          "top" : 2768.77
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 6
+        },
+        "segmentIds" : [ "259_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Rupesh",
+        "textStyles" : [ ]
+      } ]
+    }, {
+      "cells" : [ {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2787.76,
+          "left" : 72.02,
+          "right" : 108.08,
+          "top" : 2781.49
+        },
+        "position" : {
+          "column" : 0,
+          "row" : 7
+        },
+        "segmentIds" : [ "260_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Amount",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2787.76,
+          "left" : 144.02,
+          "right" : 166.1,
+          "top" : 2781.49
+        },
+        "position" : {
+          "column" : 1,
+          "row" : 7
+        },
+        "segmentIds" : [ "261_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "$100",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2787.76,
+          "left" : 216.05,
+          "right" : 255.72,
+          "top" : 2781.49
+        },
+        "position" : {
+          "column" : 2,
+          "row" : 7
+        },
+        "segmentIds" : [ "262_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "100,100-",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "box" : {
+          "bottom" : 2787.76,
+          "left" : 324.07,
+          "right" : 338.16,
+          "top" : 2781.49
+        },
+        "position" : {
+          "column" : 3,
+          "row" : 7
+        },
+        "segmentIds" : [ "263_0" ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "Nil",
+        "textStyles" : [ ]
+      }, {
+        "border" : {
+          "bottom" : false,
+          "left" : false,
+          "right" : false,
+          "top" : false
+        },
+        "position" : {
+          "column" : 4,
+          "row" : 7
+        },
+        "segmentIds" : [ ],
+        "span" : {
+          "columns" : 1,
+          "rows" : 1
+        },
+        "text" : "",
+        "textStyles" : [ ]
+      } ]
+    } ],
+    "id" : 12,
+    "metadata" : {
+      "columnHeaderCount" : 2,
+      "columns" : 5,
+      "currencyName" : "DOLLAR",
+      "currencySymbol" : "$",
+      "rows" : 8,
+      "spanningPages" : [ 3 ]
+    },
+    "rows" : [ {
+      "children" : [ ],
+      "headerRow" : true,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 0,
+      "parents" : [ ],
+      "title" : "Parent Header 1",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : true,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 1,
+      "parents" : [ ],
+      "title" : "",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 2,
+      "parents" : [ ],
+      "title" : "Date",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 3,
+      "parents" : [ ],
+      "title" : "Member",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 4,
+      "parents" : [ ],
+      "title" : "Amount",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 5,
+      "parents" : [ ],
+      "title" : "Date",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 6,
+      "parents" : [ ],
+      "title" : "Member",
+      "totalRow" : false
+    }, {
+      "children" : [ ],
+      "headerRow" : false,
+      "hierarchyLevel" : 0,
+      "immediateParent" : null,
+      "index" : 7,
+      "parents" : [ ],
+      "title" : "Amount",
+      "totalRow" : false
+    } ]
+  } ]
+}
