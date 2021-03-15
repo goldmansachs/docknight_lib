@@ -139,7 +139,7 @@ public class PhraseExtractor {
           + "  --hand-written                Detect hand written areas in the document.\n"
           + "  --page-level-ocr              Run ocr if some pages are scanned.\n"
           + "  --customizations-path=<path>  Use customizations on this path in transformers [default: ].\n"
-          + "  --enable-statsd               Public the metrics to statsD server.\n"
+          + "  --enable-statsd               Publish the metrics to statsD server.\n"
           + "  --statsd-tags=<tags>          Set the tags. These will be associated with metric sent to statsD. [default: ].\n"
           + "  --statsd-host=<host>          Host where the metrics will be sent [default: ].\n"
           + "  --statsd-port=<port>          Port on the host where the metrics will be sent [default: -1].\n"
@@ -852,16 +852,16 @@ public class PhraseExtractor {
   public static void main(String[] args) {
     try {
       // inputs
-      String inputPath = "";
+      String inputPath = "/home/harshgupta11/Downloads/not-scanned.pdf";
       String customizationsFilePath = "";
       boolean lookupRecursively = true;
-      String outputPath = "";
+      String outputPath = "/home/harshgupta11/Downloads/temp";
       int timeoutInSecondsPerDocument = 300;
       List<Integer> pageNosToOcr = Lists.mutable.of(); // zero based page indexes
       OCREngine ocrEngine = null;  // set to OCREngine.TESSERACT or OCREngine.ABBYY or null
       boolean ignoreNonRenderableText = false;  // set to true if you want to ignore any overlayed text in document
       boolean mixedLayout = false; // set to true of you want to process mixed layout documents
-      boolean html = false; //set to true if you want to generate html as well for debugging
+      boolean html = true; //set to true if you want to generate html as well for debugging
       int minChars = 0;  // set the min number of parsed chars pdf should have
       boolean handWritten = false; // detect hand written areas
       boolean pageLevelOcr = false; // run ocr on page level
