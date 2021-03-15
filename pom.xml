@@ -303,27 +303,6 @@
       <version>10.4.0</version>
       <scope>test</scope>
     </dependency>
-
-    <dependency>
-      <groupId>net.sf.nervalreports</groupId>
-      <artifactId>html-pdf-flying-saucer-converter</artifactId>
-      <version>1.0</version>
-      <exclusions>
-        <exclusion>
-          <groupId>bouncycastle</groupId>
-          <artifactId>bcmail-jdk14</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>bouncycastle</groupId>
-          <artifactId>bcprov-jdk14</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>bouncycastle</groupId>
-          <artifactId>bctsp-jdk14</artifactId>
-        </exclusion>
-      </exclusions>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
 
 </project>

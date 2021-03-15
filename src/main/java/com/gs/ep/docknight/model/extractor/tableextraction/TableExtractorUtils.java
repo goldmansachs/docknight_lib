@@ -70,7 +70,7 @@ public final class TableExtractorUtils {
         .empty();
     int rowIndex = 0;
     while (rowIndex <= tabularGroup
-        .getColumnHeaderCount())   // TODO: gupthar Seems like a bug in this condition- equality condition should not be present
+        .getColumnHeaderCount())   // TODO: Seems like a bug in this condition- equality condition should not be present
     {
       indentations.add(hierarchyLevel);
       rowHierarchy.add(Tuples.pair(hierarchyLevel, Multimaps.mutable.list.empty()));

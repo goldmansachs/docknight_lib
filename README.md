@@ -814,7 +814,7 @@ Sample PDF
 
 ### Running in IntelliJ
 
-* Open [docKnight](https://gitlab.gs.com/rde-ai/docviz) in `Intellij`
+* Open [docKnight](https://github.com/goldmansachs/docknight_lib) in `Intellij`
 * Set Java:
 ```
 export JAVA_HOME=/path/to/jdk-1.8.0_121_b13_2
