@@ -18,7 +18,6 @@ package com.gs.ep.docknight.util;
 
 import com.gs.ep.docknight.model.element.Document;
 import com.gs.ep.docknight.model.renderer.HtmlRenderer;
-import com.gs.ep.docknight.model.testutil.PdfRenderer;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -56,14 +55,6 @@ public final class DisplayUtils {
 
   public static void displayHtml(String htmlDocument, String fileName) {
     displayString(htmlDocument, fileName, "html");
-  }
-
-  public static void displayPdf(Document document) {
-    displayPdf(document, "test");
-  }
-
-  public static void displayPdf(Document document, String fileName) {
-    displayPdf(new PdfRenderer().render(document), fileName);
   }
 
   public static void displayPdf(byte[] pdfDocument) {

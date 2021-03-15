@@ -272,7 +272,7 @@ public class PdfParser implements Parser<InputStream> {
       while (segmentationRatio > maxSegmentationRatio);
     }
     StatsDClientWrapper
-        .setValue("totalPagesCount", IterableUtils.size(document.getContainingElements(Page.class)));
+        .increment("processed_pages_total", IterableUtils.size(document.getContainingElements(Page.class)));
     return document;
   }
 

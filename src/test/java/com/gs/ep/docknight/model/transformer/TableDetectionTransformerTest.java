@@ -501,7 +501,6 @@ public class TableDetectionTransformerTest extends AbstractTransformerTest {
         Lists.mutable.of(expectedTable));
   }
 
-  @Ignore
   @Test
   public void testSecondPrevTableDeletion() throws Exception {
     new MockUp<ColumnHeaderExpansionProcessNode>() {

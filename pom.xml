@@ -261,9 +261,9 @@
     </dependency>
 
     <dependency>
-      <groupId>com.timgroup</groupId>
-      <artifactId>java-statsd-client</artifactId>
-      <version>3.1.0</version>
+      <groupId>com.datadoghq</groupId>
+      <artifactId>java-dogstatsd-client</artifactId>
+      <version>2.10.3</version>
     </dependency>
 
     <!--test dependencies-->
@@ -301,27 +301,6 @@
       <groupId>org.eclipse.collections</groupId>
       <artifactId>eclipse-collections-testutils</artifactId>
       <version>10.4.0</version>
-      <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>net.sf.nervalreports</groupId>
-      <artifactId>html-pdf-flying-saucer-converter</artifactId>
-      <version>1.0</version>
-      <exclusions>
-        <exclusion>
-          <groupId>bouncycastle</groupId>
-          <artifactId>bcmail-jdk14</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>bouncycastle</groupId>
-          <artifactId>bcprov-jdk14</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>bouncycastle</groupId>
-          <artifactId>bctsp-jdk14</artifactId>
-        </exclusion>
-      </exclusions>
       <scope>test</scope>
     </dependency>
   </dependencies>

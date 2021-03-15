@@ -187,7 +187,7 @@ public final class TableExpander {
                 .getVisualRight());
       } else {
         rightSpanIndex = columnBoundaries.size() - 1
-            - rightSpanIndex;  // TODO: gupthar This condition should be outside the else part
+            - rightSpanIndex;  // TODO: This condition should be outside the else part
       }
       return Tuples.pair(leftSpanIndex, rightSpanIndex);
     });

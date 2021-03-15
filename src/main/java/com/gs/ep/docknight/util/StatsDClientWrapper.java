@@ -16,31 +16,39 @@
 
 package com.gs.ep.docknight.util;
 
-import com.timgroup.statsd.NonBlockingStatsDClient;
+import com.timgroup.statsd.NonBlockingStatsDClientBuilder;
 import com.timgroup.statsd.StatsDClient;
-import org.eclipse.collections.api.factory.Sets;
-import org.eclipse.collections.api.set.MutableSet;
+import org.eclipse.collections.api.factory.Lists;
+import org.eclipse.collections.api.list.MutableList;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Wrapper over StatsDClient which is used to store and send metrics to statsD daemon.
  */
 public class StatsDClientWrapper {
 
+  private static final Logger LOGGER = LoggerFactory.getLogger(StatsDClientWrapper.class);
   private static StatsDClient client;
-  private static MutableSet<String> storedMetrics = Sets.mutable.empty();
+  private static MutableList<String> tags = Lists.mutable.empty();
 
   /**
    * Initiate the statsD connection with host machine if it is not exists already.
-   * @param workspaceName DEP workspace name. It is used as prefix in metric name
-   * @param serviceName DEP service name. It is used as prefix in metric name
+   * @param prefix name which will be used as prefix in all metric names
+   * @param tags labels to associate with the metrics sent by this client
    * @param host hostname for initiating the connection
    * @param port port number for initiating the connection
    */
-  public static void initializeClient(String workspaceName, String serviceName, String host,
-      String port) {
+  public static void initializeClient(String prefix, MutableList<String> tags, String host,
+      int port) {
     if (client == null) {
-      client = new NonBlockingStatsDClient(String.format("%s.%s", workspaceName, serviceName), host,
-          Integer.valueOf(port));
+      StatsDClientWrapper.tags = tags;
+      client = new NonBlockingStatsDClientBuilder()
+              .prefix(prefix)
+              .hostname(host)
+              .port(port)
+              .build();
+      LOGGER.info(String.format("StatsDClient initialized successfully on host: %s, port: %d with prefix: %s", host, port, prefix));
     } else {
       throw new RuntimeException("StatDClient is a singleton and can not be initialized twice");
     }
@@ -49,45 +57,25 @@ public class StatsDClientWrapper {
   /**
    * Increment the count of {@code metric}
    * @param metric metric name whose count will be incremented
+   * @param delta amount by which increment is performed
    */
-  public static void increment(String metric) {
+  public static void increment(String metric, int delta) {
     if (client != null) {
-      client.incrementCounter(metric);
-      storedMetrics.add(metric);
+      client.count(metric, delta, tags.toArray(new String[tags.size()]));
+      LOGGER.info(String.format("Incrementing the counter for metric %s by delta %d", metric, delta));
     }
   }
 
   /**
-   * Assign the {@code value} to the {@code metric}
-   * @param metric metric name
-   * @param value value assigned to the metric
+   * Setter for tags
    */
-  public static void setValue(String metric, int value) {
-    if (client != null) {
-      client.recordGaugeValue(metric, value);
-      storedMetrics.add(metric);
-    }
+  public static void setTags(MutableList<String> tags){
+    StatsDClientWrapper.tags = tags;
   }
 
   /**
-   * Send all the metrics collected to the statsD daemon
+   * Cleanly shut down this StatsD client.
    */
-  public static void sendAllMetrics() {
-    for (String metric : storedMetrics) {
-      sendMetric(metric);
-    }
-  }
-
-  /**
-   * Send the {@code metric} to the statsD daemon
-   * @param metric metric which will be sent
-   */
-  public static void sendMetric(String metric) {
-    if (client != null) {
-      client.count(metric, 0, 1);
-    }
-  }
-
   public static void closeClient() {
     if(client != null){
       client.stop();

@@ -193,9 +193,8 @@ public class ScannedPdfParser implements Parser<InputStream> {
             .add(new Width(new Length(image.getWidth() / this.ocrFactor, Unit.pt)))
             .add(new PositionalContent(new PositionalElementList<>(pageElements)));
         pages.add(newPage);
-        StatsDClientWrapper.increment("tesseractPagesCount");
       });
-
+      StatsDClientWrapper.increment("tesseract_processed_pages_total", pages.size());
       document = new Document()
           .add(new PageStructure(PageStructure.FLOW_PAGE_BREAK))
           .add(new Content(new ElementList<>(pages)));
@@ -209,7 +208,7 @@ public class ScannedPdfParser implements Parser<InputStream> {
       document = new PdfParser().withDynamicSpaceWidthComputationEnabled(true)
           .parse(new ByteArrayInputStream(transformedPdf));
       document.addTransformedIntermediateSource(Document.SourceType.OCRED_DOC, transformedPdf);
-      StatsDClientWrapper.setValue("abbyyPagesCount",
+      StatsDClientWrapper.increment("abbyy_processed_pages_total",
           IterableUtils.size(document.getContainingElements(Page.class)));
     }
 
