@@ -97,6 +97,7 @@ import org.eclipse.collections.api.map.MutableMap;
 import org.eclipse.collections.api.tuple.Pair;
 import org.eclipse.collections.impl.factory.Lists;
 import org.eclipse.collections.impl.factory.Maps;
+import org.eclipse.collections.impl.list.fixed.ArrayAdapter;
 import org.eclipse.collections.impl.list.mutable.ListAdapter;
 import org.eclipse.collections.impl.utility.Iterate;
 import org.eclipse.collections.impl.utility.ListIterate;
@@ -123,7 +124,7 @@ public class PhraseExtractor {
       "java -cp path/to/docknight.jar com.gs.ep.docknight.model.extractor.PhraseExtractor\n"
           + "\n"
           + "Usage:\n"
-          + "  PhraseExtractor [--no-recurse] [--timeout=SEC] [--ignore-overlay] [--tesseract] [--abbyy] [--mixed-layout] [--html] [--min-chars=CNT] [--hand-written] [--page-level-ocr] [--customizations-path=<path>] [--dep-workspace=<workspace>] [--dep-service=<service>] [--statsd-host=<host>] [--statsd-port=<port>] <input-path> <output-path>\n"
+          + "  PhraseExtractor [--no-recurse] [--timeout=SEC] [--ignore-overlay] [--tesseract] [--abbyy] [--mixed-layout] [--html] [--min-chars=CNT] [--hand-written] [--page-level-ocr] [--customizations-path=<path>] [--enable-statsd] [--statsd-tags=<tags>] [--statsd-host=<host>] [--statsd-port=<port>] [--statsd-prefix=<prefix>] <input-path> <output-path>\n"
           + "\n"
           + "Options:\n"
           + "  -h --help                     Show this screen.\n"
@@ -138,10 +139,11 @@ public class PhraseExtractor {
           + "  --hand-written                Detect hand written areas in the document.\n"
           + "  --page-level-ocr              Run ocr if some pages are scanned.\n"
           + "  --customizations-path=<path>  Use customizations on this path in transformers [default: ].\n"
-          + "  --dep-workspace=<workspace>   Set the DEP workspace. Used as prefix in metric name [default: ].\n"
-          + "  --dep-service=<service>       Set the DEP service name. Used as prefix in metric name [default: ].\n"
+          + "  --enable-statsd               Public the metrics to statsD server.\n"
+          + "  --statsd-tags=<tags>          Set the tags. These will be associated with metric sent to statsD. [default: ].\n"
           + "  --statsd-host=<host>          Host where the metrics will be sent [default: ].\n"
-          + "  --statsd-port=<port>          Port on the host where the metrics will be sent [default: ].\n"
+          + "  --statsd-port=<port>          Port on the host where the metrics will be sent [default: -1].\n"
+          + "  --statsd-prefix=<prefix>      Name which will be used as prefix in all statsd metric names. [default: ].\n"
           + "\n";
   private static String version;
   private static ScannedPdfParser scannedPdfParser;
@@ -863,10 +865,11 @@ public class PhraseExtractor {
       int minChars = 0;  // set the min number of parsed chars pdf should have
       boolean handWritten = false; // detect hand written areas
       boolean pageLevelOcr = false; // run ocr on page level
-      String workspaceName = "";
-      String serviceName = "";
+      boolean isStatsDEnabled = false;  // publish metric to statsd server
       String statsDHost = "";
-      String statsDPort = "";
+      String statsDPrefix = "";
+      int statsDPort = -1;
+      MutableList<String> statsDTags = Lists.mutable.empty();
       try {
         if (args.length > 0 || inputPath.isEmpty()) {
           Map<String, Object> opts = new Docopt(DOC).parse(args);
@@ -884,10 +887,13 @@ public class PhraseExtractor {
           minChars = Integer.parseInt((String) opts.get("--min-chars"));
           handWritten = (Boolean) opts.get("--hand-written");
           pageLevelOcr = (Boolean) opts.get("--page-level-ocr");
-          workspaceName = (String) opts.get("--dep-workspace");
-          serviceName = (String) opts.get("--dep-service");
+          isStatsDEnabled = (Boolean) opts.get("--enable-statsd");
+          statsDTags = ArrayAdapter.adapt(((String)opts.get("--statsd-tags")).trim()
+              .replaceAll("(^\\[)|(\\]$)", "").split(",")).toList()
+              .reject(String::isEmpty);
+          statsDPrefix = (String) opts.get("--statsd-prefix");
           statsDHost = (String) opts.get("--statsd-host");
-          statsDPort = (String) opts.get("--statsd-port");
+          statsDPort = Integer.parseInt((String) opts.get("--statsd-port"));
         }
       } catch (Throwable e) {
         e.printStackTrace();
@@ -900,10 +906,9 @@ public class PhraseExtractor {
       ModelCustomizations modelCustomizations = getModelCustomizationsFromFile(
           customizationsFilePath);
 
-      boolean isStatsDConfigured = !(workspaceName.isEmpty() || serviceName.isEmpty() || statsDHost.isEmpty() || statsDPort
-          .isEmpty());
+      boolean isStatsDConfigured = !(statsDHost.isEmpty() || statsDPort == -1) && isStatsDEnabled;
       if (isStatsDConfigured) {
-        StatsDClientWrapper.initializeClient(workspaceName, serviceName, statsDHost, statsDPort);
+        StatsDClientWrapper.initializeClient(statsDPrefix, statsDTags, statsDHost, statsDPort);
       }
 
       extractFromMultipleFiles(inputPath, outputPath, lookupRecursively,
@@ -912,7 +917,6 @@ public class PhraseExtractor {
           pageLevelOcr, modelCustomizations);
 
       if(isStatsDConfigured){
-        StatsDClientWrapper.sendAllMetrics();
         StatsDClientWrapper.closeClient();
       }
     } catch (Throwable e) {
