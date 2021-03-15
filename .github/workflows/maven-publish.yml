@@ -21,9 +21,7 @@ jobs:
         server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
 
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
-
-    - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
+      run: |
+        mvn -B package --file pom.xml
+        mvn jacoco:report
+        awk -F"," '{ instructions += $4 + $5; covered+= $5 } END { print covered, "/", instructions, "instructions covered"; print "Unit test coverage -", 100*covered/instructions, "%" }' target/site/jacoco/jacoco.csv
