@@ -1,31 +1,34 @@
 # DocKnight library
 
-We propose a library that can parse pdf files and generate its representation in visual json (DocModel). DocModel captures information like Page, Group(a visual paragraph within a page), Line, Segment(similarly-styled text within a line) as well as the entire Doc making each part of the document, including the text as well as the styling information, accessible, operable and queryable.
+`docknight_lib` parses pdf files and generates the _DocModel_ ("visual json") representation, which aims to capture information about the text in the document and its visual appearance, with the goal of supporting knowledge extraction applications. The doc model deconstructs a document into _pages_, _groups_ (a visual paragraph within a page), _lines_, and _segments_ (similarly-styled text within a line).  
 
 ## Introduction
 
-Documents are the primary carrier of information in the professional world.  For centuries they have been designed by humans for consumption by humans, and deploy the full range of artistry in visual and textual representation to convey meaning. Now we need documents understood by code, not just humans. Arguably, we need algorithms to recover, represent and exploit visual structure within document. In order to this, docKnight library aims to represent document into an industry-standard, language-neutral structure representation language such as json. Such representation should be powerful enough to capture any aspect of the visual representation that is necessary for any knowledge extraction task. Representation should not lose any metadata information that is present in the document which might be different for different document formats (pdf, html, xlsx, etc). 
+Documents are the primary carrier of information in the professional world.  For centuries they have been designed by humans for consumption by humans, and deploy the full range of artistry in visual and textual representation to convey meaning. For instance, a document may contain title pages, running text, displays, tables, charts, may have multiple columns etc. We now need documents understood by code, not just humans; arguably, we need algorithms to recover, represent and exploit visual structure within document. 
 
+This project proposes a tree-structured representation of the information content in a document, _visual json_ (vj), intended to capture all aspects of the visual appearance of a document relevant to understanding the semantic content of the document, and represent it in a programming-language-neutral format (in json). Visual json is intended to be a useful target for extractors operating on pdf, html, xlsx and other document formats. 
+
+While our intial focus is on designign a format that can represent the range of visual information expressed in financial documents (such as company reports, prospectuses, loan documents), we expect that this kind of format would be of use in other technical domains as well. 
 
 ## Defninitions
-* **style** : Represents the font style and other font related details. 
-* **segment** : Segment is the lowest level `Element` in the model, a segment consists of a contiguous words which share same *style* information.
-* **line** : Line is a visual line in a document, it consists of zero or more segments. Line is broken into segments with the existence of multiple styles or a large amount of space between words in the line.
-* **group** : Group is a logical grouping of lines that follow a reading order, a group consists on zero or more lines. Groups are used to represent text clusters like paragraphs.
-* **page** : Page represents a visual page in a document, it consists of zero or more groups.
+* **style** : A _style_ represents visual characteristics of the text, such as font, style (bold, italic etc.) and size.
+* **segment** : A _segment_ consists of a contiguous span of text in the same visual line with the same style. It is the lowest level `Element` in the model.
+* **line** : A _line_ represents a visual line in the document. It consists of zero or more segments. A segment boundary marks a change in style information, or large amount of white space.  
+* **group** : A _group _is a logical grouping of lines that follow a single reading order. It consists of zero or more lines. A group is used to represent a cluster of lines that a human would understand as constituting a paragraph or a cell in a table.
+* **page** : A _page_ represents a visual page in a document, it consists of zero or more groups.
 
-## Structure of Output Visual Json
+## Structure of output Visual Json
 The json at the lowest level contains segment(s), which have following features:
-* Underline, bold and other style information
-* Borders - a set of four flags (left, top, bottom, right), telling us if there is a line surrounding text
+* Style -- underline, bold, italic etc.
+* Border - a set of four flags (left, top, bottom, right), telling us if there is a line surrounding text
 * Box - a set of four doubles, giving us the bounding box for the text
-* Visual spans - a set of four doubles, giving us a bounding box, which takes space and surrounding borders into consideration. If the text was part of some tabular region, visual span correspond to the row/col span of that text in tabular region.
+* Visual span - a set of four doubles specifying a bounding box. Space and surrounding borders are taken into consideration. If the text was part of some tabular region, visual span correspond to the row/col span of that text in the tabular region.
 * a unique id
 * Font family information
 * Font size information
 * Text color information
 
-The basic structure is:
+The basic structure of a visual json document is:
 ```
 [document] -> [page]*
 [page] -> [group]*            # group is something like a paragraph or table
@@ -33,8 +36,9 @@ The basic structure is:
 [line] -> [segment]*          # segments are visually separable parts of a line (based on spacing or style change)
 ```
 
-Further, a page can consist of three types of groups - headerGroups, footerGroups, and normal groups. This partition is based on us trying to detect page headers and footers.
-We also export, information such as all horizontal and vertical graphic lines present in the document, int terms of [left, top, stretch].
+The groups in a page are further classified into _header_, _footer_ and _normal_ groups. The intent is to separate visual information that recurs  stylistically from page to page (e.g. headers and footers) from information that represents the main content of the page.  Information about all the horizontal and vertical graphic lines in the document is also captured in the doc model.
+_vj comment_: _need more details. Where is this line information represented?
+
 
 #### Example
 
@@ -72,11 +76,14 @@ We also export, information such as all horizontal and vertical graphic lines pr
       } ]
     }, {............
 ```
+_vj comment_: Provide a complete representation. e.g. graphical lines.
 
-
+## Paragraphs and tables
 `DocModel` visual json provides two views of the document, one based on paragraphs, the other on tables. 
 
-**Paragraph view**
+_vj comment_: We need an elaboration of the table structure!
+
+### Paragraph view
 In this view a document is seen as a collection of pages, which in-turn is a collection of groups, so on. 
 
 Sample PDF
@@ -519,7 +526,7 @@ Sample PDF
 </p>
 </details>
 
-**Tabular view**
+### Tabular view
 In this view a document is seen as a collection of tables. 
 
 Sample PDF
@@ -834,6 +841,10 @@ export IDEA_JDK_64=/path/to/jdk-1.8.0_121_b13_2
 * Adjust the main method `inputPath` and `outputPath`. `inputPath` is  either a path to single document or path of a directory (in which case all documents in the directory are processed as pdfs, one at a time). `outputPath` is a directory where the visual json will be saved.
 * Press the `Play` arrow! 
 
+_vj comment_: Why `gs-maven-3.6.0`? 
+
+_vj comment_: Need build instructions from the command line as well.
+
 ### Running using command line
 
 ```
@@ -883,6 +894,7 @@ Page page2 = Lists.mutable.ofAll(document.getContainingElements(Page.class)).get
 \\ Retrieve all bold text elements from document
 MutableList<Element> boldElements = Lists.mutable.ofAll(document.getContainingElements(TextElement.class)).select(element -> (element.getAttribute(TextStyles.class) != null && (element.getAttribute(TextStyles.class).getValue().contains(TextStyles.BOLD))))
 ```
+_vj comment_: Should also release python code for working with visual json.
 
 ## Related Work
 *  [Amazon Textract](https://aws.amazon.com/textract/)
