@@ -37,13 +37,16 @@ The basic structure of a visual json document is:
 ```
 
 The groups in a page are further classified into _header_, _footer_ and _normal_ groups. The intent is to separate visual information that recurs  stylistically from page to page (e.g. headers and footers) from information that represents the main content of the page.  Information about all the horizontal and vertical graphic lines in the document is also captured in the doc model.
-_vj comment_: _need more details. Where is this line information represented?
+Lines or handwritten areas are actually present at document level as shown in below example. 
 
 
 #### Example
 
 ```
 {
+  "handWrittenAreas" : [ ],
+  "horizontalLines" : [ ],
+  "verticalLines" : [ ],
   "pages" : [ {
     "groups" : [ {
       "lines" : [ {
@@ -76,12 +79,73 @@ _vj comment_: _need more details. Where is this line information represented?
       } ]
     }, {............
 ```
-_vj comment_: Provide a complete representation. e.g. graphical lines.
+Example pdf with graphical lines
+
+![alt text](src/test/resources/images/Hello_World.png)
+
+Visual json for example pdf is as follows:
+```
+{
+  "phrases" : {
+    "box" : { ... },
+    "handWrittenAreas" : [ ],
+    "horizontalLines" : [ [ 216.0, 169.72, 165.0 ] ],
+    "pages" : [ {
+      "box" : { ...  },
+      "groups" : [ {
+        "lines" : [ {
+          "segments" : [ {
+            "border" : { ... },
+            "box" : { ... },
+            "color" : "#000000",
+            "fontFamily" : "Times",
+            "fontSize" : 16.0,
+            "id" : "0_0",
+            "letterSpacing" : -0.03,
+            "neighbour" : { ...  },
+            "span" : { ... },
+            "styles" : [ "bold" ],
+            "text" : "Hello World!"
+          } ]
+        } ]
+      }, {
+        "lines" : [ {
+          "segments" : [ {
+            "border" : { ... },
+            "box" :  { ... },
+            "color" : "#000000",
+            "fontFamily" : "Times",
+            "fontSize" : 16.0,
+            "id" : "2_0",
+            "letterSpacing" : 0.0,
+            "neighbour" : { ... },
+            "span" :  { ... },
+            "styles" : [ ],
+            "text" : "We are Docknight_lib"
+          } ]
+        } ]
+      } ],
+      "scannedness" : 0.0,
+      "width" : 595.32
+    } ]
+  },
+  "tables" : {
+    "document" : "Document",
+    "tables" : [ ]
+  }
+
+```
+The basic structure of tables in visual json document is:
+```
+[document] -> [table]*
+[table] -> [column]*        # column represent column related information like column headers
+[table] -> [row]*           # row represent row related information like indentation level, whether it is header row or not, etc
+[table] -> [cell]*          # cell is similar to segment and is a smallest unit in a table
+```
 
 ## Paragraphs and tables
 `DocModel` visual json provides two views of the document, one based on paragraphs, the other on tables. 
 
-_vj comment_: We need an elaboration of the table structure!
 
 ### Paragraph view
 In this view a document is seen as a collection of pages, which in-turn is a collection of groups, so on. 
@@ -831,19 +895,19 @@ export IDEA_JDK_64=/path/to/jdk-1.8.0_121_b13_2
 * Run intellij: `/path/to/GSIntelliJUltimate-prod/bin/idea.sh`
 * In intellij to File -> Settings -> Build, Execution, Deployment -> Build Tools -> Maven
 * Check these settings:
-    * Maven home directory: `/path/to/gs-maven-3.6.0`
+    * Maven home directory: `/path/to/maven`
     * User settings file: `path/to/maven-settings.xml/inside/the/project`
-* Run maven:
-    * View -> Tool Windows -> Maven Projects
-    * Lifecycle -> Clean
-    * Lifecycle -> Install
+* Maven can build the project jar in target folder. Run maven using either of below options:
+    * In IntelliJ
+        * View -> Tool Windows -> Maven Projects
+        * Lifecycle -> Clean
+        * Lifecycle -> Install
+    * In command line
+        * sudo apt install maven
+        * mvn -B package --file pom.xml
 * Open `PhraseExtractor.java` (press shift twice to search)
 * Adjust the main method `inputPath` and `outputPath`. `inputPath` is  either a path to single document or path of a directory (in which case all documents in the directory are processed as pdfs, one at a time). `outputPath` is a directory where the visual json will be saved.
 * Press the `Play` arrow! 
-
-_vj comment_: Why `gs-maven-3.6.0`? 
-
-_vj comment_: Need build instructions from the command line as well.
 
 ### Running using command line
 
