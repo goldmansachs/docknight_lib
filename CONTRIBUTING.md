@@ -17,8 +17,7 @@ have its own set of tests, be formatted correctly and be consistent with the ove
 It must follow the pull request procedure outlined below.
 
 ### Coding Style
-* Use 4 spaces for indentation. No tabs.
-* A brace must be on a line by itself.
+Use [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) OR Use [IntelliJ Java Google Style XML](intellij-java-google-style.xml)
 
 ### Before your first code pull request
 
