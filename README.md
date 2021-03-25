@@ -896,7 +896,6 @@ export IDEA_JDK_64=/path/to/jdk-1.8.0_121_b13_2
 * In intellij to File -> Settings -> Build, Execution, Deployment -> Build Tools -> Maven
 * Check these settings:
     * Maven home directory: `/path/to/maven`
-    * User settings file: `path/to/maven-settings.xml/inside/the/project`
 * Maven can build the project jar in target folder. Run maven using either of below options:
     * In IntelliJ
         * View -> Tool Windows -> Maven Projects
