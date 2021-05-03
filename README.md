@@ -2,6 +2,11 @@
 
 `docknight_lib` parses pdf files and generates the _DocModel_ ("visual json") representation, which aims to capture information about the text in the document and its visual appearance, with the goal of supporting knowledge extraction applications. The doc model deconstructs a document into _pages_, _groups_ (a visual paragraph within a page), _lines_, and _segments_ (similarly-styled text within a line).  
 
+## Current Status
+
+This library is still under development and some of the expected output may be missing or misclassified.
+
+
 ## Introduction
 
 Documents are the primary carrier of information in the professional world.  For centuries they have been designed by humans for consumption by humans, and deploy the full range of artistry in visual and textual representation to convey meaning. For instance, a document may contain title pages, running text, displays, tables, charts, may have multiple columns etc. We now need documents understood by code, not just humans; arguably, we need algorithms to recover, represent and exploit visual structure within document. 
