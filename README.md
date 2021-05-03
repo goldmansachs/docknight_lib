@@ -4,7 +4,7 @@
 
 ## Current Status
 
-This project is under active development.
+This library is still under development and some of the expected output may be missing or misclassified.
 
 
 ## Introduction
