@@ -968,3 +968,6 @@ MutableList<Element> boldElements = Lists.mutable.ofAll(document.getContainingEl
 *  [Amazon Textract](https://aws.amazon.com/textract/)
 *  [IBM - Global Table Extractor (GTE)](https://arxiv.org/abs/2005.00589)
 
+## Reporting Issues
+* Have you identified a reproducible problem in docknight_lib? Please report your issues [here](https://github.com/goldmansachs/docknight_lib/issues/new)
+* Before you create a new issue, please do a search in [open issues](https://github.com/goldmansachs/docknight_lib/issues) to see if the issue has already been filed.
