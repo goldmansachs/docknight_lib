@@ -956,18 +956,18 @@ Customization_type can be one of the following:
 
 ### Example Queries
 ```
-\\ Retrieve the 2nd page from document
+// Retrieve the 2nd page from document
 Page page2 = Lists.mutable.ofAll(document.getContainingElements(Page.class)).get(1)
 
-\\ Retrieve all bold text elements from document
+// Retrieve all bold text elements from document
 MutableList<Element> boldElements = Lists.mutable.ofAll(document.getContainingElements(TextElement.class)).select(element -> (element.getAttribute(TextStyles.class) != null && (element.getAttribute(TextStyles.class).getValue().contains(TextStyles.BOLD))))
 ```
-_vj comment_: Should also release python code for working with visual json.
+
 
 ## Related Work
 *  [Amazon Textract](https://aws.amazon.com/textract/)
 *  [IBM - Global Table Extractor (GTE)](https://arxiv.org/abs/2005.00589)
 
-## Support 
-* Please raise any support request [here](https://gitlab.jira.sdlc.site.gs.com/browse/STAN-151).
-
+## Reporting Issues
+* Have you identified a reproducible problem in docknight_lib? Please report your issues [here](https://github.com/goldmansachs/docknight_lib/issues/new)
+* Before you create a new issue, please do a search in [open issues](https://github.com/goldmansachs/docknight_lib/issues) to see if the issue has already been filed.
